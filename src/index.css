@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: sans;
+  src: url('/public/fonts/sans.ttf');
+}
+
+body {
+  font-family: sans;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+#tsparticles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
