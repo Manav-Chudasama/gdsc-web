@@ -11,13 +11,13 @@ const AboutUs = () => {
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                   <img
                     className=" rounded-xl object-cover"
-                    src="https://pagedone.io/asset/uploads/1717741205.png"
+                    src="images/about/a2.png"
                     alt="about Us image"
                   />
                 </div>
                 <img
                   className="sm:ml-0 ml-auto rounded-xl object-cover"
-                  src="https://pagedone.io/asset/uploads/1717741215.png"
+                  src="images/about/a1.jpeg"
                   alt="about Us image"
                 />
               </div>
