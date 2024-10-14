@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white fixed top-0 left-0 w-full z-20 shadow-md">
       <div className="max-w-screen-2xl mx-auto p-4 flex items-center justify-between">
-        <a href="#" className="">
+        <NavLink to="/">  
           <svg
             viewBox="0 0 432 64"
             className="h-[7vw] pl-[1vw] sm:h-[6vw] md:h-[4vw] lg:h-[3vw]"
@@ -114,7 +115,7 @@ const Navbar = () => {
               style={{ fill: "rgb(234, 67, 53)" }}
             />
           </svg>
-        </a>
+        </NavLink>
 
         {/* Burger Menu Button */}
         <button
@@ -142,21 +143,51 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-12 pr-[1vw]">
-          <a href="#" className="text-gray-700 hover:text-blue-700">
+          <NavLink
+            to="/"
+            style={({ isActive }) => ({
+              color: isActive ? "blue" : "Black",
+            })}
+            className="text-gray-700 hover:text-blue-700"
+          >
             Home
-          </a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">
+          </NavLink>
+          <NavLink
+            to="/our-team"
+            style={({ isActive }) => ({
+              color: isActive ? "blue" : "Black",
+            })}
+            className="text-gray-700 hover:text-blue-700"
+          >
             Our Team
-          </a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">
+          </NavLink>
+          <NavLink
+            to="/events"
+            style={({ isActive }) => ({
+              color: isActive ? "blue" : "Black",
+            })}
+            className="text-gray-700 hover:text-blue-700"
+          >
             Events
-          </a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">
+          </NavLink>
+          <NavLink
+            to="/gallery"
+            style={({ isActive }) => ({
+              color: isActive ? "blue" : "Black",
+            })}
+            className="text-gray-700 hover:text-blue-700"
+          >
             Gallery
-          </a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">
+          </NavLink>
+          <NavLink
+            to="/contact-us"
+            style={({ isActive }) => ({
+              color: isActive ? "blue" : "Black",
+            })}
+            className="text-gray-700 hover:text-blue-700"
+          >
             Contact us
-          </a>
+          </NavLink>
         </div>
       </div>
 
@@ -168,31 +199,50 @@ const Navbar = () => {
       >
         <div className="p-4">
           <ul className="flex flex-col space-y-4">
-            <li className="pb-2 border-b">
-              <a href="#" className="text-gray-700 hover:text-blue-700">
-                Home
-              </a>
-            </li>
-            <li className="pb-2 border-b">
-              <a href="#" className="text-gray-700 hover:text-blue-700">
-                Our Team
-              </a>
-            </li>
-            <li className="pb-2 border-b">
-              <a href="#" className="text-gray-700 hover:text-blue-700">
-                Events
-              </a>
-            </li>
-            <li className="pb-2 border-b">
-              <a href="#" className="text-gray-700 hover:text-blue-700">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-700 hover:text-blue-700">
-                Contact us
-              </a>
-            </li>
+            <NavLink
+              to="/"
+              style={({ isActive }) => ({
+                color: isActive ? "blue" : "Black",
+              })}
+              className="p-2 border-b hover:bg-gray-50"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/our-team"
+              style={({ isActive }) => ({
+                color: isActive ? "blue" : "Black",
+              })}
+              className="pb-2 border-b"
+            >
+              Our Team
+            </NavLink>
+            <NavLink
+              to="/events"
+              style={({ isActive }) => ({
+                color: isActive ? "blue" : "Black",
+              })}
+              className="pb-2 border-b"
+            >
+              Events
+            </NavLink>
+            <NavLink
+              to="/gallery"
+              style={({ isActive }) => ({
+                color: isActive ? "blue" : "Black",
+              })}
+              className="pb-2 border-b"
+            >
+              Gallery
+            </NavLink>
+            <NavLink
+              to="/contact-us"
+              style={({ isActive }) => ({
+                color: isActive ? "blue" : "Black",
+              })}
+            >
+              Contact us
+            </NavLink>
           </ul>
         </div>
       </div>
