@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Zoom } from "react-awesome-reveal";
 import { FaHistory, FaRegCalendarAlt } from "react-icons/fa";
 
 const Events = () => {
@@ -133,13 +134,13 @@ const Events = () => {
 
       {activeTab === "upcoming" && (
         <div id="upcoming" className="flex flex-wrap justify-center gap-5">
-          {renderEventCards(upcoming)}
+          <Zoom>{renderEventCards(upcoming)}</Zoom>
         </div>
       )}
 
       {activeTab === "past" && (
         <div id="past" className="flex flex-wrap justify-center gap-5">
-          {renderEventCards(past)}
+          <Zoom>{renderEventCards(past)}</Zoom>
         </div>
       )}
     </div>

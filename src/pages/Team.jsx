@@ -12,6 +12,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import { Zoom } from "react-awesome-reveal";
 
 const Team = () => {
   const [activeTab, setActiveTab] = useState("core"); // State for switching tabs
@@ -107,15 +108,15 @@ const Team = () => {
           </ul>
         </div>
         {activeTab === "core" ? (
-          renderTeam(coreTeam)
+          <Zoom>{renderTeam(coreTeam)}</Zoom>
         ) : (
           <div className="space-y-12">
-            <div>
+            <Zoom>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-center mb-9">
                 Web Development Team
               </h2>
               {renderTeam(webDevTeam)}
-            </div>
+            </Zoom>
             {/* <div>
               <h2 className="text-lg font-semibold">App Development Team</h2>
               {renderTeam(appDevTeam)}
