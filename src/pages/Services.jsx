@@ -55,7 +55,7 @@ const Services = () => {
         </Slide>
       </div>
       <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-7">
-        <Zoom>
+        <Zoom cascade damping={0.13}>
           <div className="text-center">
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
               <FaMobileAlt className="w-12 h-12 text-indigo-500 sm:w-16 sm:h-16" />

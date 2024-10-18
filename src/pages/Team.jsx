@@ -24,7 +24,7 @@ const Team = () => {
           {console.log(team)}
           <img
             alt={member.name}
-            className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm"
+            className="object-cover h-56 mx-auto mb-4 bg-center rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
             src={member.image}
           />
           <div className="flex flex-col items-center">

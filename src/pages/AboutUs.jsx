@@ -27,7 +27,7 @@ const AboutUs = () => {
               <div className="w-full flex-col justify-center items-start gap-8 flex">
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                    <h2 className="text-4xl md:text-6xl font-bold font-manrope leading-normal lg:text-start text-center">
                       About Us
                     </h2>
                     <Slide

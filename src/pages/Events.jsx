@@ -57,7 +57,7 @@ const Events = () => {
     return events.map((event, index) => (
       <div
         key={index}
-        className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96"
+        className="relative flex flex-col my-6 bg-white border border-slate-200 w-96 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
       >
         <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
           <img

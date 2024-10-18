@@ -5,15 +5,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("click");
-
     setIsOpen(!isOpen);
   };
 
   return (
     <nav className="bg-white fixed top-0 left-0 w-full z-20 shadow-md">
       <div className="max-w-screen-2xl mx-auto p-4 flex items-center justify-between">
-        <NavLink to="/">  
+        <NavLink to="/">
           <svg
             viewBox="0 0 432 64"
             className="h-[7vw] pl-[1vw] sm:h-[6vw] md:h-[4vw] lg:h-[3vw]"
@@ -200,6 +198,7 @@ const Navbar = () => {
         <div className="p-4">
           <ul className="flex flex-col space-y-4">
             <NavLink
+              onClick={toggleMenu}
               to="/"
               style={({ isActive }) => ({
                 color: isActive ? "blue" : "Black",
@@ -209,6 +208,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
+              onClick={toggleMenu}
               to="/our-team"
               style={({ isActive }) => ({
                 color: isActive ? "blue" : "Black",
@@ -218,6 +218,7 @@ const Navbar = () => {
               Our Team
             </NavLink>
             <NavLink
+              onClick={toggleMenu}
               to="/events"
               style={({ isActive }) => ({
                 color: isActive ? "blue" : "Black",
@@ -227,6 +228,7 @@ const Navbar = () => {
               Events
             </NavLink>
             <NavLink
+              onClick={toggleMenu}
               to="/gallery"
               style={({ isActive }) => ({
                 color: isActive ? "blue" : "Black",
@@ -236,6 +238,7 @@ const Navbar = () => {
               Gallery
             </NavLink>
             <NavLink
+              onClick={toggleMenu}
               to="/contact-us"
               style={({ isActive }) => ({
                 color: isActive ? "blue" : "Black",
