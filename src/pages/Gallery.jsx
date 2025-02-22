@@ -22,14 +22,15 @@ const Gallery = () => {
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g2.jpeg"
+            src="images/gallery/g2.jpg"
             alt=""
           />
         </div>
         <div>
           <video
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="/videos/gallery/v1.mov"
+            src="/videos/gallery/v1.mp4"
+            autoPlay
             loop
             controls
           ></video>
@@ -37,21 +38,22 @@ const Gallery = () => {
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g4.jpeg"
+            src="images/gallery/g2.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g7.jpeg"
+            src="images/gallery/g1.jpg"
             alt=""
           />
         </div>
         <div>
           <video
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="/videos/gallery/v2.mov"
+            src="/videos/gallery/v2.mp4"
+            autoPlay
             loop
             controls
           ></video>
@@ -59,28 +61,29 @@ const Gallery = () => {
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g5.jpeg"
+            src="images/gallery/g3.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g6.jpeg"
+            src="images/gallery/g1.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="images/gallery/g8.jpeg"
+            src="images/gallery/g3.jpg"
             alt=""
           />
         </div>
         <div>
           <video
             className="mb-2 rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] transition-all hover:shadow-[0_8px_14px_0_rgba(0,0,0,0.2)]"
-            src="/videos/gallery/v3.mov"
+            src="/videos/gallery/v3.mp4"
+            autoPlay
             loop
             controls
           ></video>

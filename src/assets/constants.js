@@ -4,11 +4,11 @@ export const coreTeam = [
     title: "Our GDSC Lead",
     description:
       "Guiding with a 'Google heart' and coding with a 'developer mind,' I'm not just a lead – I'm your architect of innovation. As a committee builder, I weave collaboration into code and turn challenges into opportunities. Let's code a future where creativity knows no limits, and every line is an adventure in building something extraordinary together.",
-    image: "/images/core/c1.jpeg",
+    image: "/images/core/person2.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/chitalianishtha",
-      github: "https://www.github.com",
-      linkedin: "https://www.linkedin.com/in/nishtha-chitalia/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
@@ -16,11 +16,11 @@ export const coreTeam = [
     title: "Our GDSC Secretary",
     description:
       "Hello there! As the secretary of GDSC, I thrive on keeping things organized and ensuring smooth communication within our tech community. Excited to contribute to our journey of innovation and growth!",
-    image: "/images/core/c2.jpeg",
+    image: "/images/core/person1.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/_aryangpt/",
-      github: "https://github.com/AryanGupta2406",
-      linkedin: "www.linkedin.com/in/aryan-gupta-0a348522a",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
@@ -28,13 +28,11 @@ export const coreTeam = [
     title: "Our GDSC Treasurer",
     description:
       "As your committee treasurer, I take care of the finances with attention to detail, making sure everything is clear for everyone. My goal is to keep things transparent, so members feel confident in our financial decisions, fostering trust and responsibility in our operations.",
-    image: "/images/core/c3.jpeg",
+    image: "/images/core/person2.jpg",
     socialLinks: {
-      instagram:
-        "https://www.instagram.com/forum_1402?igsh=MTY4YjIwd3Jka3NuaA%3D%3D&utm_source=qr",
-      github: "",
-      linkedin:
-        "https://www.linkedin.com/in/forum-sanjanwala-4b99881b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
@@ -42,11 +40,11 @@ export const coreTeam = [
     title: "App Development",
     quote:
       "Leading app project and inspire fellow juniors to learning the exciting world of app development.",
-    image: "/images/core/c4.jpeg",
+    image: "/images/core/person1.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/okayyabhishek/",
-      github: "https://github.com/abhinike",
-      linkedin: "https://www.linkedin.com/in/abhisheksanjeevsinha/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
@@ -54,11 +52,11 @@ export const coreTeam = [
     title: "Web Development",
     quote:
       "Leading the way as the Web Dev Head at GDSC DJSCE. Passionate about Software Development and Data Science, crafting innovative solutions for tomorrow's challenges.",
-    image: "/images/core/c5.jpeg",
+    image: "/images/core/person1.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/Vineet___04/",
-      github: "https://github.com/Vineetttt",
-      linkedin: "https://www.linkedin.com/in/vineet-chotaliya/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
@@ -66,11 +64,11 @@ export const coreTeam = [
     title: "App Development",
     quote:
       "As the GDSC App Head, I lead by example, offering inspiration to juniors through my mentorship, fostering a culture of growth. My focus on team spirit and strong leadership qualities empower the team, creating an environment where innovation and collaboration flourish, driving excellence in app development.",
-    image: "/images/core/c6.png",
+    image: "/images/core/person1.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/aryan_9324/",
-      github: "https://github.com/XeHunter",
-      linkedin: "https://www.linkedin.com/in/aryan-surve-889182264/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   //   {
@@ -179,50 +177,49 @@ export const coreTeam = [
 export const webDevTeam = [
   {
     name: "Lakshitaa Chellaramani",
-    image: "/images/co/w1.jpg",
+    image: "/images/co/person2.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/lakshitaa.xo/",
-      github: "https://github.com/lakshitaa-chellaramani",
-      linkedin: "https://www.linkedin.com/in/lakshitaa-chellaramani-68254224b",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
     name: "Divy Arun Mav",
-    image: "/images/co/w2.png",
+    image: "/images/co/person1.jpg",
     socialLinks: {
-      instagram: "https://instagram.com/divy_mav?igshid=YTQwZjQ0NmI0OA==",
-      github: "https://github.com/divy-arun-mav",
-      linkedin:
-        "https://www.linkedin.com/in/divy-mav-7b82b0249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
     name: "Vedant Naik",
-    image: "/images/co/w3.jpg",
+    image: "/images/co/person1.jpg",
 
     socialLinks: {
-      instagram: "http://www.instagram.com/vedant.naik09",
-      github: "https://github.com/vedantnaik09",
-      linkedin: "https://www.linkedin.com/in/vedant-naik-9a77b0b0/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
     name: "Arnav Deo",
-    image: "/images/co/w4.jpg",
+    image: "/images/co/person1.jpg",
 
     socialLinks: {
-      instagram: "https://www.instagram.com/arnitdo",
-      github: "https://www.github.com/arnitdo",
-      linkedin: "https://linkedin.com/in/arnitdo",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
   {
     name: "Rajvardhan Singh Chib",
-    image: "/images/co/w5.jpg",
+    image: "/images/co/person1.jpg",
     socialLinks: {
-      instagram: "https://www.instagram.com/rajvardhanxchib",
-      github: "https://github.com/Rajvardhan135",
-      linkedin: "https://www.linkedin.com/in/rajvardhan-singh-chib-1a328a212/",
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
     },
   },
 ];
